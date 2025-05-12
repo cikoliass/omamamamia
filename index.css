@@ -1,3 +1,5 @@
+
+@media (min-width:1920px){
 body {
     background-color: BLACK;
     color: white;
@@ -9,14 +11,15 @@ body {
 }
 .scale{
     padding: 24px;
+    margin-right:120px;
     margin-left:120px;
-    width: 700px;
-    height:500px;
-    position: relative;
-    right: 1px;
+    width: 500px;   
+    height: 500px;
+    margin:6px;
+
 }
 
-.u{
+.albomu{
     display: flex;
 }
 html{
@@ -27,7 +30,7 @@ html{
     font-size: small;
     font-weight: lighter;
 }
-.u img{
+.albomu img{
     width:500px;
     height:500px;
 }
@@ -89,13 +92,93 @@ html{
     position: relative;
     top:210px;
 }
-@media (min-width: 1920px) {
+}
+@media (min-width: 1440px) {
+    body {
+        background-color: BLACK;
+        color: white;
+    }
+    .name{
+        text-align: center;
+        color:  rgb(211, 41, 41);
+        margin-bottom: 48px;    
+    }
+    .albomu{
+        display: flex;
+    }
     html{
-        margin: 220px;
-        margin-top: 90px;
-        margin-bottom: 12px;
+        font-size:large;
+        scroll-behavior: smooth;
+        margin: 6px;
+    }
+    .primechanie{
+        font-size: small;
+        font-weight: lighter;
     }
     .scale{
-        width: 50%;
+        padding: 24px;
+        margin-left:120px;
+        width: 700px;   
+        height: 500px;
+        margin:6px;
+    
     }
+    .Name1{
+        color:rgb(116, 12, 12);
+        font-size: xx-large;
+    }
+    .Name{
+        color:rgb(175, 13, 13);
+        font-size: larger;
+    }
+    .q{
+        display: flex;
+        justify-content:center ;   
+    }
+    .kartochka{
+        border-radius: 12px;
+        border-style: solid;
+        border-color: #ce2121;
+        padding:12px;
+        margin:36px;
+        display: flex;
+        justify-items: center;
+        background-color: #1a1818;
+    
   }
+  .text{
+    position: relative;
+    top:210px;
+ }
+ .scale1{
+    padding: 24px;
+    transition: 1s;
+}
+.scale1:hover{
+    transform: scale(1.05);
+}
+.albomu img{
+    width:500px;
+    height:500px;
+}
+.b{
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    text-decoration: none;
+    color: #807b7b;
+    margin: 15px;
+    width:200px;
+    height:80px;
+    border-radius: 12px;
+    background-color: rgb(83, 8, 8);
+    transition: 1s;
+
+}
+.b:hover{
+    transform: scale(1.1);
+    background-color:rgb(117, 13, 13); 
+    color:  rgb(189, 186, 186);
+}   
+
+}
