@@ -1,0 +1,36 @@
+body {
+    background-color: black;
+    color: white;
+}
+.Name1{
+    color:rgb(116, 12, 12);
+    font-size: xx-large;
+}
+.Name{
+    color:rgb(175, 13, 13);
+    font-size: larger;
+}
+.b{
+    display:flex ;
+    justify-content:center ;
+    align-items: center;
+    text-decoration: none;
+    color: #666;
+    margin: 15px;
+    width:200px;
+    height:80px;
+    border-radius: 12px;
+    background-color: rgb(83, 8, 8);
+    transition: 1s;
+
+}
+.b:hover{
+    transform: scale(1.1);
+    background-color:rgb(117, 13, 13); 
+    color:  rgb(189, 186, 186);
+}
+html{
+    margin: 420px;
+    margin-top:12px;
+    margin-bottom:12px;
+}
