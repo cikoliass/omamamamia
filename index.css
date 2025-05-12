@@ -89,6 +89,13 @@ html{
     position: relative;
     top:210px;
 }
-@media screen {
-    min-width:
-}
+@media (min-width: 1920px) {
+    html{
+        margin: 220px;
+        margin-top: 90px;
+        margin-bottom: 12px;
+    }
+    .scale{
+        width: 50%;
+    }
+  }
