@@ -4,21 +4,50 @@ body {
     background-color: BLACK;
     color: white;
 }
+.drochenos{
+    margin-left:340px;
+}
+.igolochki{
+    margin-left:235px;
+}
+.clown{
+    margin-left: 235px;
+    
+}
+.gitar {
+    margin-left:235px;
+}
+.gitar_2{
+    margin-left:100px;
+}
+.pevun{
+    margin-left:160px;
+}
+.ban{
+    margin-left:510px;
+}
+.bas{
+    margin-left:340px;
+}
+.barabani{
+    margin-left:410px;
+}
+.bass{
+    margin-left:510px;
+}
+.sid{
+    margin-left:100px;
+}
 .name{
     text-align: center;
     color:  rgb(211, 41, 41);
     margin-bottom: 48px;
 }
 .scale{
-    padding: 24px;
-    margin-right:120px;
-    margin-left:120px;
-    width: 500px;   
-    height: 500px;
-    margin:6px;
+    position: relative;
+    border-radius: 48px;
 
 }
-
 .albomu{
     display: flex;
 }
@@ -71,9 +100,9 @@ html{
     border-color: #ce2121;
     padding:12px;
     margin: 24px;
-    display: flex;
-    justify-items: center;
     background-color: #1a1818;
+    display: flex;
+
 
 }
 .scale1{
@@ -88,12 +117,42 @@ html{
     margin-top: 90px;
     margin-bottom: 12px;
 }
-.text{
-    position: relative;
-    top:210px;
+
 }
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (min-width: 1440px) {
+    
     body {
         background-color: BLACK;
         color: white;
@@ -105,6 +164,18 @@ html{
     }
     .albomu{
         display: flex;
+    }
+    .ban{
+        margin-left: 510px;
+    }
+    .bas{
+        margin-left:340px;
+    }
+    .bass{
+        margin-left:510px;
+    }
+    .barabani{
+        margin-left:410px;
     }
     html{
         font-size:large;
