@@ -41,7 +41,7 @@ body {
 .name{
     text-align: center;
     color:  rgb(211, 41, 41);
-    margin-bottom: 48px;
+    
 }
 .scale{
     position: relative;
@@ -89,9 +89,10 @@ html{
 .Name1{
     color:rgb(116, 12, 12);
     font-size: xx-large;
+    
 }
 .Name{
-    color:rgb(175, 13, 13);
+    color:rgb(201, 157, 157);
     font-size: larger;
 }
 .kartochka{
@@ -253,3 +254,4 @@ html{
 }   
 
 }
+
